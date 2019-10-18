@@ -168,7 +168,30 @@ header {
   justify-content: center;
   margin: 120px 0px;
 }
-.bio img {
+.profile {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  width: 100%;
+  padding-bottom: 35px;
+}
+.profile img {
   width: 100px;
   border-radius: 50%;
+}
+.profile .bio {
+  width: 200px;
+  height: 100%;
+  padding-left: 15px;
+  align-content: center;
+}
+.profile .bio h3 {
+  font-size: 2rem;
+}
+#michele .bio,
+#colby .bio,
+#tauan .bio {
+  order: -1;
 }
