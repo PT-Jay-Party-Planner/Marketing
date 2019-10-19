@@ -140,6 +140,9 @@ header {
 img {
   border-radius: 10px;
 }
+a {
+  cursor: pointer;
+}
 button {
   margin: 0px 80px;
   border-radius: 10px;
@@ -204,10 +207,21 @@ button {
   justify-content: space-around;
   text-align: center;
 }
+.nav .btn {
+  margin: -20px;
+}
+.nav a {
+  z-index: 99;
+}
+.nav button {
+  margin: 0px;
+}
+.header-about {
+  margin-bottom: 70px;
+  text-align: center;
+}
 .header-about h1 {
   font-size: 4rem;
-  text-align: center;
-  margin-bottom: 70px;
 }
 .profile {
   display: flex;
@@ -230,6 +244,17 @@ button {
 }
 .profile .bio h3 {
   font-size: 2rem;
+}
+.profile .bio p {
+  font-size: 1.5rem;
+  margin-top: 15px;
+}
+.profile .bio a {
+  text-decoration: none;
+  color: black;
+}
+.profile .bio a:hover {
+  color: teal;
 }
 #michele .bio,
 #colby .bio,
