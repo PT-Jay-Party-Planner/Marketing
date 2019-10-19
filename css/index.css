@@ -134,6 +134,12 @@ html {
   margin: 0 auto;
   width: 500px;
 }
+header {
+  margin-top: 70px;
+}
+img {
+  border-radius: 10px;
+}
 button {
   margin: 0px 80px;
   border-radius: 10px;
@@ -158,12 +164,6 @@ button {
   left: 50%;
   transform: translate(-50%, -50%);
   width: 50%;
-}
-header {
-  margin-top: 70px;
-}
-img {
-  border-radius: 10px;
 }
 .footer-img {
   width: 100%;
@@ -203,6 +203,11 @@ img {
   display: flex;
   justify-content: space-around;
   text-align: center;
+}
+.header-about h1 {
+  font-size: 4rem;
+  text-align: center;
+  margin-bottom: 70px;
 }
 .profile {
   display: flex;
