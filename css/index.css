@@ -145,28 +145,64 @@ button {
 .btn {
   margin: 100px;
 }
-.headline-img {
+.headline {
+  position: relative;
+  text-align: center;
+}
+.headline .headline-img {
   width: 100%;
+}
+.Logo {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 50%;
 }
 header {
   margin-top: 70px;
 }
+img {
+  border-radius: 10px;
+}
 .footer-img {
   width: 100%;
 }
-.mission-statement {
-  width: 30%;
+.background-images {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.background-images .mission-statement-img {
+  width: 40%;
+  margin-top: 50px;
 }
 .get-started {
   text-align: center;
 }
-.about-headline-img {
+.middle-section {
+  position: relative;
+  text-align: center;
+}
+.middle-section .about-headline-img {
   width: 100%;
+}
+.about-header {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 3rem;
 }
 .call-to-action {
   display: flex;
   justify-content: center;
   margin: 120px 0px;
+}
+.nav {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
 }
 .profile {
   display: flex;
