@@ -1,3 +1,17 @@
+.centerText {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.spaceAround {
+  display: flex;
+  justify-content: space-around;
+}
+.imgBehindText {
+  position: relative;
+  text-align: center;
+}
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
@@ -173,12 +187,20 @@ button {
 }
 .background-images {
   display: flex;
-  flex-wrap: wrap;
   justify-content: space-around;
+  flex-wrap: wrap;
 }
-.background-images .mission-statement-img {
-  width: 40%;
-  margin-top: 50px;
+.background-images .mission-statement-one {
+  width: 20%;
+  background-image: url("img/doughnutDown.jpeg");
+}
+.background-images .mission-statement-two {
+  width: 20%;
+  background-image: url("img/partyFood.jpeg");
+}
+.background-images .mission-statement-three {
+  width: 20%;
+  background-image: url("img/muffins.jpeg");
 }
 .get-started {
   text-align: center;

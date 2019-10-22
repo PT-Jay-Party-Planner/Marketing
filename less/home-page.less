@@ -1,31 +1,34 @@
 .background-images {
-    display: flex;
+    .spaceAround();
     flex-wrap: wrap;
-    justify-content: space-around;
 
-    .mission-statement-img {
-        width: 40%;
-        margin-top: 50px;
+    .mission-statement-one {
+        width: 20%;
+        background-image: url("img/doughnutDown.jpeg");
     }
-}    
+    .mission-statement-two {
+        width: 20%;
+        background-image: url("img/partyFood.jpeg");
+    }
+    .mission-statement-three {
+        width: 20%;
+        background-image: url("img/muffins.jpeg");
+    }
+} 
 
 .get-started {
     text-align: center;
 }
 
 .middle-section {
-    position: relative;
-    text-align: center;
+    .imgBehindText();
 
     .about-headline-img {
         width: 100%;
     }
 }
 .about-header {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    .centerText();
     font-size: 3rem;
 }
 
