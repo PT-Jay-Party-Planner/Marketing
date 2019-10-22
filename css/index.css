@@ -148,6 +148,26 @@ html {
   margin: 0 auto;
   width: 500px;
 }
+body {
+  font-family: 'Roboto Slab', serif;
+  font-size: 14pt;
+}
+h1 {
+  font-family: 'Raleway', sans-serif;
+  font-size: 36pt;
+  font-weight: bold;
+}
+h2 {
+  font-family: 'Raleway', sans-serif;
+  font-size: 24pt;
+  font-weight: medium;
+}
+h3 {
+  font-family: 'Raleway', sans-serif;
+  font-size: 18pt;
+  font-weight: medium;
+  font-style: italic;
+}
 header {
   margin-top: 70px;
 }
@@ -158,10 +178,13 @@ a {
   cursor: pointer;
 }
 button {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 800;
+  font-size: 18pt;
   margin: 0px 80px;
   border-radius: 10px;
-  width: 100px;
-  height: 30px;
+  width: 150px;
+  height: 40px;
   border: none;
   background-color: #F58676;
 }
@@ -225,12 +248,16 @@ button {
   margin: 120px 0px;
 }
 .nav {
+  font-family: 'Raleway', sans-serif;
+  font-size: 18pt;
+  font-style: italic;
+  font-weight: 600;
   display: flex;
   justify-content: space-around;
   text-align: center;
 }
 .nav .btn {
-  margin: -20px;
+  margin: -40px;
 }
 .nav a {
   z-index: 99;
@@ -241,9 +268,6 @@ button {
 .header-about {
   margin-bottom: 70px;
   text-align: center;
-}
-.header-about h1 {
-  font-size: 4rem;
 }
 .profile {
   display: flex;
