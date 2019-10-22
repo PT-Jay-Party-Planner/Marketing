@@ -199,6 +199,9 @@ button {
   -webkit-filter: drop-shadow(5px 5px 5px black);
   filter: drop-shadow(5px 5px 5px black);
 }
+.footer {
+  opacity: 0.8;
+}
 .footer-img {
   width: 100%;
 }
@@ -261,7 +264,7 @@ button {
 }
 .middle-section .about-headline-img {
   width: 100%;
-  opacity: 0.9;
+  opacity: 0.75;
 }
 .about-header {
   position: absolute;
