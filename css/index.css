@@ -12,6 +12,20 @@
   position: relative;
   text-align: center;
 }
+.backgroundImageStyling {
+  width: 30%;
+  padding: 5% 2%;
+  margin: 40px 20px;
+  border-radius: 10px;
+  background-size: cover;
+  opacity: 0.9;
+}
+.textStyling {
+  font-size: 14pt;
+  text-align: center;
+  text-shadow: 0px 5px 8px #ffffff, 0px -5px 8px #ffffff, 5px 0px 8px #ffffff, -5px 0px 8px #ffffff;
+  line-height: 1.2;
+}
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
@@ -197,6 +211,7 @@ button {
 }
 .headline .headline-img {
   width: 100%;
+  opacity: 0.75;
 }
 .Logo {
   position: absolute;
@@ -204,6 +219,11 @@ button {
   left: 50%;
   transform: translate(-50%, -50%);
   width: 50%;
+  -webkit-filter: drop-shadow(5px 5px 5px black);
+  filter: drop-shadow(5px 5px 5px black);
+}
+.footer {
+  opacity: 0.8;
 }
 .footer-img {
   width: 100%;
@@ -220,6 +240,7 @@ button {
   margin: 40px 20px;
   border-radius: 10px;
   background-size: cover;
+  opacity: 0.9;
 }
 .background-images .mission-statement-one p {
   font-size: 14pt;
@@ -234,6 +255,7 @@ button {
   margin: 40px 20px;
   border-radius: 10px;
   background-size: cover;
+  opacity: 0.9;
 }
 .background-images .mission-statement-two p {
   font-size: 14pt;
@@ -248,6 +270,7 @@ button {
   margin: 40px 20px;
   border-radius: 10px;
   background-size: cover;
+  opacity: 0.9;
 }
 .background-images .mission-statement-three p {
   font-size: 14pt;
@@ -264,12 +287,14 @@ button {
 }
 .middle-section .about-headline-img {
   width: 100%;
+  opacity: 0.75;
 }
 .about-header {
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+  text-shadow: 0px 5px 15px #ffffff, 0px -5px 15px #ffffff, 5px 0px 15px #ffffff, -5px 0px 15px #ffffff;
   font-size: 3rem;
 }
 .call-to-action {
