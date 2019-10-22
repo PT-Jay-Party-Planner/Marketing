@@ -192,15 +192,15 @@ button {
 }
 .background-images .mission-statement-one {
   width: 20%;
-  background-image: url("img/doughnutDown.jpeg");
+  background-image: url("../img/doughnutDown.jpeg");
 }
 .background-images .mission-statement-two {
   width: 20%;
-  background-image: url("img/partyFood.jpeg");
+  background-image: url("../img/partyFood.jpeg");
 }
 .background-images .mission-statement-three {
   width: 20%;
-  background-image: url("img/muffins.jpeg");
+  background-image: url("../img/muffins.jpeg");
 }
 .get-started {
   text-align: center;
