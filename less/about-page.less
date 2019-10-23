@@ -72,7 +72,31 @@
 
 
 #michele, #colby, #tauan {
-        .bio {
-            order:-1;
-        }
+    .bio {
+        order:-1;
     }
+}
+
+#michele, #colby, #tauan {
+    @media @phone {
+        padding-left: 0px;
+    }
+    @media @tablet {
+        padding-left: 180px;
+    }
+    @media @desktop {
+        padding-left: 300px;
+    }
+}
+
+#jay, #courtney, #ryan, #pete {
+    @media @phone {
+        padding-right: 0px;
+    }
+    @media @tablet {
+        padding-right: 180px;
+    }
+    @media @desktop {
+        padding-right: 300px;
+    }
+}
