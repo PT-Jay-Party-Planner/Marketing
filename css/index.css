@@ -160,7 +160,23 @@ table {
 html {
   font-size: 62.5%;
   margin: 0 auto;
-  width: 500px;
+  max-width: 500px;
+  width: 100%;
+}
+@media (min-width: 500px) {
+  html {
+    max-width: 500px;
+  }
+}
+@media (min-width: 800px) {
+  html {
+    max-width: 800px;
+  }
+}
+@media (min-width: 1000px) {
+  html {
+    max-width: 1000px;
+  }
 }
 body {
   font-family: 'Roboto Slab', serif;
@@ -234,7 +250,7 @@ button {
   flex-wrap: wrap;
 }
 .background-images .mission-statement-one {
-  background-image: url("../img/doughnutDown.jpeg");
+  background-image: url("../img/muffins.jpeg");
   width: 30%;
   padding: 5% 2%;
   margin: 40px 20px;
@@ -264,7 +280,7 @@ button {
   line-height: 1.2;
 }
 .background-images .mission-statement-three {
-  background-image: url("../img/muffins.jpeg");
+  background-image: url("../img/doughnutDown.jpeg");
   width: 30%;
   padding: 5% 2%;
   margin: 40px 20px;
