@@ -249,6 +249,16 @@ button {
   justify-content: space-around;
   flex-wrap: wrap;
 }
+@media (min-width: 800px) {
+  .background-images {
+    flex-wrap: nowrap;
+  }
+}
+@media (min-width: 1000px) {
+  .background-images {
+    flex-wrap: nowrap;
+  }
+}
 .background-images .mission-statement-one {
   background-image: url("../img/muffins.jpeg");
   width: 30%;
