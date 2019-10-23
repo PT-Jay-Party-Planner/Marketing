@@ -5,7 +5,19 @@
 html {
     font-size: 62.5%;
     margin: 0 auto;
-    width: 500px;
+    max-width: 500px;
+    width: 100%;
+
+    @media @phone {
+        max-width: 500px;
+    }
+    @media @tablet {
+        max-width: 800px;
+    }
+    @media @desktop {
+        max-width: 1000px;
+    }
+
 }
 
 body {
