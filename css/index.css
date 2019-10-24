@@ -233,6 +233,9 @@ button:hover {
 .headline .headline-img {
   width: 100%;
   opacity: 0.75;
+  object-fit: cover;
+  object-position: 100% 0;
+  height: 337px;
 }
 .Logo {
   position: absolute;
