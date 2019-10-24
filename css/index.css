@@ -240,6 +240,17 @@ button {
 }
 .footer {
   opacity: 0.8;
+  margin-top: 50px;
+}
+@media (min-width: 800px) {
+  .footer {
+    margin-top: 80px;
+  }
+}
+@media (min-width: 1000px) {
+  .footer {
+    margin-top: 100px;
+  }
 }
 .footer-img {
   width: 100%;
@@ -387,4 +398,49 @@ button {
 #colby .bio,
 #tauan .bio {
   order: -1;
+}
+@media (min-width: 500px) {
+  #michele,
+  #colby,
+  #tauan {
+    padding-left: 0px;
+  }
+}
+@media (min-width: 800px) {
+  #michele,
+  #colby,
+  #tauan {
+    padding-left: 180px;
+  }
+}
+@media (min-width: 1000px) {
+  #michele,
+  #colby,
+  #tauan {
+    padding-left: 300px;
+  }
+}
+@media (min-width: 500px) {
+  #jay,
+  #courtney,
+  #ryan,
+  #pete {
+    padding-right: 0px;
+  }
+}
+@media (min-width: 800px) {
+  #jay,
+  #courtney,
+  #ryan,
+  #pete {
+    padding-right: 180px;
+  }
+}
+@media (min-width: 1000px) {
+  #jay,
+  #courtney,
+  #ryan,
+  #pete {
+    padding-right: 300px;
+  }
 }
