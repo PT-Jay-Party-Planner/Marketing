@@ -217,6 +217,11 @@ button {
   height: 40px;
   border: none;
   background-color: #F58676;
+  color: black;
+}
+button:hover {
+  background-color: black;
+  color: #F58676;
 }
 .btn {
   margin: 100px;
