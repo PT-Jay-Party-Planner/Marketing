@@ -211,13 +211,23 @@ button {
   font-family: 'Raleway', sans-serif;
   font-weight: 800;
   font-size: 18pt;
-  margin: 0px 80px;
+  margin: 0px 30px;
   border-radius: 10px;
   width: 150px;
   height: 40px;
   border: none;
   background-color: #F58676;
   color: black;
+}
+@media (min-width: 800px) {
+  button {
+    margin: 0px 70px;
+  }
+}
+@media (min-width: 1000px) {
+  button {
+    margin: 0px 100px;
+  }
 }
 button:hover {
   background-color: black;
