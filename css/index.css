@@ -13,9 +13,9 @@
   text-align: center;
 }
 .backgroundImageStyling {
-  width: 30%;
+  width: 40%;
   padding: 5% 2%;
-  margin: 40px 20px;
+  margin: 40px 2%;
   border-radius: 10px;
   background-size: cover;
   opacity: 0.9;
@@ -302,9 +302,9 @@ button:hover {
 }
 .background-images .mission-statement-one {
   background-image: url("../img/muffins.jpeg");
-  width: 30%;
+  width: 40%;
   padding: 5% 2%;
-  margin: 40px 20px;
+  margin: 40px 2%;
   border-radius: 10px;
   background-size: cover;
   opacity: 0.9;
@@ -317,9 +317,9 @@ button:hover {
 }
 .background-images .mission-statement-two {
   background-image: url("../img/partyFood.jpeg");
-  width: 30%;
+  width: 40%;
   padding: 5% 2%;
-  margin: 40px 20px;
+  margin: 40px 2%;
   border-radius: 10px;
   background-size: cover;
   opacity: 0.9;
@@ -332,9 +332,9 @@ button:hover {
 }
 .background-images .mission-statement-three {
   background-image: url("../img/doughnutDown.jpeg");
-  width: 30%;
+  width: 40%;
   padding: 5% 2%;
-  margin: 40px 20px;
+  margin: 40px 2%;
   border-radius: 10px;
   background-size: cover;
   opacity: 0.9;
@@ -363,7 +363,7 @@ button:hover {
   left: 50%;
   transform: translate(-50%, -50%);
   text-shadow: 0px 5px 15px #ffffff, 0px -5px 15px #ffffff, 5px 0px 15px #ffffff, -5px 0px 15px #ffffff;
-  font-size: 2rem;
+  font-size: 1.5rem;
   line-height: 2;
   width: 60%;
 }
